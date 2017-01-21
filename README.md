@@ -1,5 +1,7 @@
 # AnalyzerForIDS
 
-For running the front-enf:
-  $ cd framework
-  $ ./run.sh
+For running the front-end:
+ 
+ $ cd framework
+ 
+ $ ./run.sh
