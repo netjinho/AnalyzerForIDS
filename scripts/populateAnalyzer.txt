@@ -1,0 +1,129 @@
+use analyzer
+db.results.insert([
+    {
+      type: "Too many open ports",
+      source: "192.168.0.1",
+      description: "1234 ports are open",
+      severity: "Dangerous"
+    },
+    {
+      type: "Too many open ports",
+      source: "192.168.0.11",
+      description: "1234 ports are open",
+      severity: "Dangerous"
+    },
+    {
+      type: "Too many open ports",
+      source: "192.168.0.12",
+      description: "1234 ports are open",
+      severity: "Dangerous"
+    },
+    {
+      type: "Too many open ports",
+      source: "192.168.0.4",
+      description: "1234 ports are open",
+      severity: "Dangerous"
+    },
+    {
+      type: "Too many open ports",
+      source: "192.168.0.14",
+      description: "1234 ports are open",
+      severity: "Dangerous"
+    },
+    {
+      type: "Too many open ports",
+      source: "192.168.0.15",
+      description: "1234 ports are open",
+      severity: "Dangerous"
+    },
+    {
+      type: "Too many open ports",
+      source: "192.168.0.16",
+      description: "1234 ports are open",
+      severity: "Dangerous"
+    },
+    {
+      type: "Too many open ports",
+      source: "192.168.0.17",
+      description: "1234 ports are open",
+      severity: "Dangerous"
+    },
+    {
+      type: "Too many open ports",
+      source: "192.168.0.18",
+      description: "1234 ports are open",
+      severity: "Dangerous"
+    },
+    {
+      type: "Too many open ports",
+      source: "192.168.0.19",
+      description: "1234 ports are open",
+      severity: "Dangerous"
+    },
+    {
+      type: "Too many open ports",
+      source: "192.168.0.10",
+      description: "1234 ports are open",
+      severity: "Dangerous"
+    },
+    {
+      type: "Too many open ports",
+      source: "192.168.0.41",
+      description: "1234 ports are open",
+      severity: "Dangerous"
+    },
+    {
+      type: "Some open ports",
+      source: "192.168.0.21",
+      description: "123 ports are open",
+      severity: "Moderate"
+    },
+    {
+      type: "Some open ports",
+      source: "192.168.0.22",
+      description: "123 ports are open",
+      severity: "Moderate"
+    },
+    {
+      type: "Some open ports",
+      source: "192.168.0.23",
+      description: "123 ports are open",
+      severity: "Moderate"
+    },
+    {
+      type: "Some open ports",
+      source: "192.168.0.24",
+      description: "123 ports are open",
+      severity: "Moderate"
+    },
+    {
+      type: "No open ports",
+      source: "192.168.0.31",
+      description: "0 ports are open",
+      severity: "Normal"
+    },
+    {
+      type: "No open ports",
+      source: "192.168.0.32",
+      description: "0 ports are open",
+      severity: "Normal"
+    },
+    {
+      type: "No open ports",
+      source: "192.168.0.33",
+      description: "0 ports are open",
+      severity: "Normal"
+    },
+    {
+      type: "No open ports",
+      source: "192.168.0.34",
+      description: "0 ports are open",
+      severity: "Normal"
+    },
+    {
+      type: "No open ports",
+      source: "192.168.0.35",
+      description: "0 ports are open",
+      severity: "Normal"
+    }
+])

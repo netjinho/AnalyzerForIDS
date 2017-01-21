@@ -1,0 +1,14 @@
+<template name="result">
+  <tr>
+    <td class="type" ><strong>{{type}}</strong></td>
+    <td class="source">{{source}}</td>
+    <td class="description">{{description}}</td>
+    <td id={{severity}} class="severity">
+      <center>
+        <img class={{severity}} src="images/danger.png" alt="" style="width:20px; height:auto;">
+        <strong>&nbsp;&nbsp;{{severity}}&nbsp;&nbsp;</strong>
+        <img class={{severity}} src="images/danger.png" alt="" style="width:20px; height:auto;">
+      </center>
+    </td>
+  </tr>
+</template>

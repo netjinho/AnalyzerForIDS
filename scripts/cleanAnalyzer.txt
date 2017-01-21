@@ -1,0 +1,2 @@
+use analyzer
+db.results.drop()
