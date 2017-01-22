@@ -85,8 +85,8 @@ MongoClient.connect("mongodb://localhost:27017/networkRecordings", function(err,
 
   var collection = db.collection('nmapRuns');
 
-  var nrPortDangerous = "3" //CONFIG
-  var nrPortModerate = "2"  //CONFIG
+  var nrPortDangerous = "2" //CONFIG
+  var nrPortModerate = "1"  //CONFIG
   var auxPortDangerous = []
   var auxPortModerate = []
   var auxPortNormal = []
