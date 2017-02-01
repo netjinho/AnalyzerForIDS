@@ -1,0 +1,283 @@
+use networkRecordings
+db.tsharkRuns.insert([
+    {
+      timestamp: Date.now(),
+      source: "192.168.0.1",
+      destination: "192.168.0.2",
+      protocol: "HTTP",
+      length: 1921,
+      info: "This is information",
+      tcpflag: "0x00000002"
+    },
+    {
+      timestamp: Date.now(),
+      source: "192.168.0.1",
+      destination: "192.168.0.3",
+      protocol: "HTTP",
+      length: 1921,
+      info: "This is information",
+      tcpflag: "0x00000002"
+    },
+    {
+      timestamp: Date.now(),
+      source: "192.168.0.1",
+      destination: "192.168.0.255",
+      protocol: "HTTP",
+      length: 1921,
+      info: "This is information",
+      tcpflag: "0x00000002"
+    },
+    {
+      timestamp: Date.now(),
+      source: "192.168.0.1",
+      destination: "192.168.0.2",
+      protocol: "HTTP",
+      length: 1921,
+      info: "This is information",
+      tcpflag: "0x00000002"
+    },
+    {
+      timestamp: Date.now(),
+      source: "192.168.0.1",
+      destination: "192.168.0.2",
+      protocol: "HTTP",
+      length: 1921,
+      info: "This is information",
+      tcpflag: "0x00000002"
+    },
+    {
+      timestamp: Date.now(),
+      source: "192.168.0.2",
+      destination: "192.168.0.2",
+      protocol: "HTTP",
+      length: 1921,
+      info: "This is information",
+      tcpflag: "0x00000002"
+    },
+    {
+      timestamp: Date.now(),
+      source: "192.168.0.2",
+      destination: "192.168.0.2",
+      protocol: "HTTP",
+      length: 1921,
+      info: "This is information",
+      tcpflag: "0x00000002"
+    },
+    {
+      timestamp: Date.now(),
+      source: "192.168.0.2",
+      destination: "192.168.0.2",
+      protocol: "HTTP",
+      length: 1921,
+      info: "This is information",
+      tcpflag: "0x00000002"
+    },
+    {
+      timestamp: Date.now(),
+      source: "192.168.0.2",
+      destination: "192.168.0.2",
+      protocol: "HTTP",
+      length: 1921,
+      info: "This is information",
+      tcpflag: "0x00000002"
+    },
+    {
+      timestamp: Date.now(),
+      source: "192.168.0.2",
+      destination: "192.168.0.2",
+      protocol: "HTTP",
+      length: 1921,
+      info: "This is information",
+      tcpflag: "0x00000002"
+    }
+])
+db.nmapRuns.insert([
+    {
+      timestamp: Date.now(),
+      ip: "192.168.0.1",
+      latency: 0.123,
+      ports: [
+        {
+          port: 80,
+          protocol: "HTTP",
+          state: "open",
+          service: "chrome.exe"
+        },
+        {
+          port: 81,
+          protocol: "HTTP",
+          state: "open",
+          service: "chrome1.exe"
+        },
+        {
+          port: 82,
+          protocol: "HTTP",
+          state: "open",
+          service: "chrome2.exe"
+        }
+      ]
+    },
+    {
+      timestamp: Date.now(),
+      ip: "192.168.0.2",
+      latency: 0.123,
+      ports: [
+        {
+          port: 80,
+          protocol: "HTTP",
+          state: "open",
+          service: "chrome.exe"
+        },
+        {
+          port: 81,
+          protocol: "HTTP",
+          state: "open",
+          service: "chrome1.exe"
+        },
+        {
+          port: 82,
+          protocol: "HTTP",
+          state: "open",
+          service: "chrome2.exe"
+        }
+      ]
+    },
+    {
+      timestamp: Date.now(),
+      ip: "192.168.0.3",
+      latency: 0.123,
+      ports: [
+        {
+          port: 80,
+          protocol: "HTTP",
+          state: "open",
+          service: "chrome.exe"
+        },
+        {
+          port: 81,
+          protocol: "HTTP",
+          state: "open",
+          service: "chrome1.exe"
+        },
+        {
+          port: 82,
+          protocol: "HTTP",
+          state: "open",
+          service: "chrome2.exe"
+        }
+      ]
+    },
+    {
+      timestamp: Date.now(),
+      ip: "192.168.0.4",
+      latency: 1.123,
+      ports: [
+        {
+          port: 80,
+          protocol: "HTTP",
+          state: "open",
+          service: "chrome.exe"
+        },
+        {
+          port: 81,
+          protocol: "HTTP",
+          state: "open",
+          service: "chrome1.exe"
+        }
+      ]
+    },
+    {
+      timestamp: Date.now(),
+      ip: "192.168.0.5",
+      latency: 0.123,
+      ports: [
+        {
+          port: 80,
+          protocol: "HTTP",
+          state: "open",
+          service: "chrome.exe"
+        },
+        {
+          port: 84,
+          protocol: "HTTP",
+          state: "open",
+          service: "chrome.exe"
+        }
+      ]
+    },
+    {
+      timestamp: Date.now(),
+      ip: "192.168.0.6",
+      latency: 0.123,
+      ports: [
+        {
+          port: 80,
+          protocol: "HTTP",
+          state: "open",
+          service: "chrome.exe"
+        },
+        {
+          port: 81,
+          protocol: "HTTP",
+          state: "open",
+          service: "chrome1.exe"
+        },
+        {
+          port: 82,
+          protocol: "HTTP",
+          state: "open",
+          service: "chrome2.exe"
+        }
+      ]
+    },
+    {
+      timestamp: Date.now(),
+      ip: "192.168.0.7",
+      latency: 0.123,
+      ports: [
+        {
+          port: 80,
+          protocol: "HTTP",
+          state: "open",
+          service: "chrome.exe"
+        },
+        {
+          port: 81,
+          protocol: "HTTP",
+          state: "open",
+          service: "chrome1.exe"
+        },
+        {
+          port: 82,
+          protocol: "HTTP",
+          state: "open",
+          service: "chrome2.exe"
+        }
+      ]
+    },
+    {
+      timestamp: Date.now(),
+      ip: "192.168.0.8",
+      latency: 0.123,
+      ports: [
+        {
+          port: 80,
+          protocol: "HTTP",
+          state: "open",
+          service: "chrome.exe"
+        },
+        {
+          port: 81,
+          protocol: "HTTP",
+          state: "open",
+          service: "chrome1.exe"
+        },
+        {
+          port: 82,
+          protocol: "HTTP",
+          state: "open",
+          service: "chrome2.exe"
+        }
+      ]
+    }
+])

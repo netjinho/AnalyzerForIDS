@@ -1,0 +1,2 @@
+use networkRecordings
+db.nmapRuns.drop()
